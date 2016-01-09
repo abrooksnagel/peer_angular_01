@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Presidential Choice</title>
+    <script src="scripts/vendors/angular.min.js"></script>
+    <!--see end of body for further script src-->
+    <link rel="stylesheet" href="styles/style.css" >
+</head>
+<body ng-controller="myController">
+    <h1>Choose Your President</h1>
+    <button ng-click="getPresidents()">Get Candidates</button>
+    <button ng-click="selectWinner()">Select Winner</button>
+    <p>Our new president is {{president}}</p>
+    <script src="scripts/client.js"></script>
+</body>
+</html>
